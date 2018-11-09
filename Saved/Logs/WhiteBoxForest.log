@@ -1,8 +1,6 @@
-﻿Log file open, 11/07/18 17:29:54
+﻿Log file open, 11/08/18 12:15:24
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -10,7 +8,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: WhiteBoxForest
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.265123
+LogStats: Stats thread started at 0.295462
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +91,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.105s to configure plugins.
+LogStreaming: Display: Took  0.181s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -114,17 +112,18 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogHMD: Failed initializing OVRPlugin 1.25.0
 LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-6700HQ CPU @ 2.60GHz, GPU: NVIDIA GeForce GTX 1060
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line:  
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/Unreal/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -147,664 +146,672 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.001s to delete old logs.
+LogStreaming: Display: Took  0.010s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.11.08-00.29.55:127][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.08-00.29.55:127][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.11.08-00.29.55:137][  0]LogHAL: Display: Platform has ~ 32 GB [34322599936 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.11.08-00.29.55:137][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.11.08-00.29.55:137][  0]LogInit: Going up to parent DeviceProfile []
-[2018.11.08-00.29.55:137][  0]LogInit: Computer: DESKTOP-KC0JE45
-[2018.11.08-00.29.55:137][  0]LogInit: User: BryceKindred
-[2018.11.08-00.29.55:137][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.11.08-00.29.55:137][  0]LogInit: High frequency timer resolution =4.101564 MHz
-[2018.11.08-00.29.55:138][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2018.11.08-00.29.55:138][  0]LogMemory: Platform Memory Stats for Windows
-[2018.11.08-00.29.55:138][  0]LogMemory: Process Physical Memory: 99.57 MB used, 99.57 MB peak
-[2018.11.08-00.29.55:138][  0]LogMemory: Process Virtual Memory: 91.09 MB used, 91.09 MB peak
-[2018.11.08-00.29.55:138][  0]LogMemory: Physical Memory: 6364.30 MB used,  26368.28 MB free, 32732.58 MB total
-[2018.11.08-00.29.55:138][  0]LogMemory: Virtual Memory: 4644.85 MB used,  26368.28 MB free, 134217728.00 MB total
-[2018.11.08-00.29.55:154][  0]LogInit: Using OS detected language (en-US).
-[2018.11.08-00.29.55:154][  0]LogInit: Using OS detected locale (en-US).
-[2018.11.08-00.29.55:155][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.11.08-00.29.55:424][  0]LogStreaming: Display: Took  0.269s to InitEngineTextLocalization.
-[2018.11.08-00.29.55:424][  0]LogInit: Setting process to per monitor DPI aware
-[2018.11.08-00.29.55:453][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.11.08-00.29.55:453][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.11.08-00.29.55:604][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.08-00.29.55:604][  0]LogD3D11RHI: D3D11 adapters:
-[2018.11.08-00.29.55:645][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.11.08-00.29.55:645][  0]LogD3D11RHI:       8086/0/16366 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.11.08-00.29.55:646][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.11.08-00.29.55:646][  0]LogD3D11RHI:       0/0/16366 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.11.08-00.29.55:646][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.11.08-00.29.55:652][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.11.08-00.29.55:652][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.11.08-00.29.55:652][  0]LogWindows: EnumDisplayDevices:
-[2018.11.08-00.29.55:652][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.11.08-00.29.55:652][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
-[2018.11.08-00.29.55:653][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.11.08-00.29.55:653][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.11.08-00.29.55:653][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.11.08-00.29.55:653][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.11.08-00.29.55:653][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
-[2018.11.08-00.29.55:653][  0]LogD3D11RHI:      Driver Date: 10-27-2017
-[2018.11.08-00.29.55:653][  0]LogRHI: Texture pool is 5660 MB (70% of 8086 MB)
-[2018.11.08-00.29.55:675][  0]LogD3D11RHI: Async texture creation enabled
-[2018.11.08-00.29.55:695][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.11.08-00.29.55:791][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Intermediate/Shaders/WorkingDirectory/15956/).
-[2018.11.08-00.29.55:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bryce Kindred/AppData/Local/Temp/UnrealShaderWorkingDir/0CCAEB824F12ADEA5076488D314CFE32/'.
-[2018.11.08-00.29.56:039][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.11.08-00.29.56:048][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.11.08-00.29.56:058][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.11.08-00.29.56:068][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.11.08-00.29.56:079][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.11.08-00.29.56:088][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.11.08-00.29.56:098][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.11.08-00.29.56:108][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.11.08-00.29.56:113][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:169][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.11.08-00.29.56:170][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.11.08-00.29.56:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.08-00.29.56:223][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.11.08-00.29.56:239][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.08-00.29.56:239][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.11.08-00.29.56:251][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.11.08-00.29.56:260][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.11.08-00.29.56:269][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.11.08-00.29.56:279][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.11.08-00.29.56:286][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.11.08-00.29.56:286][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.11.08-00.29.56:331][  0]LogXGEController: Cleaning working directory: C:/Users/Bryce Kindred/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.11.08-00.29.56:332][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.11.08-00.29.56:332][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.11.08-00.29.56:332][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.11.08-00.29.56:893][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: Loaded boot cache 0.05s 84MB C:/Users/Bryce Kindred/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bryce Kindred/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.11.08-00.29.56:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.11.08-00.29.56:952][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.11.08-00.29.56:965][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bryce Kindred/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.11.08-00.29.56:965][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.11.08-00.29.56:965][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.11.08-00.29.56:977][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.11.08-00.29.56:978][  0]LogSlate: Using FreeType 2.6.0
-[2018.11.08-00.29.56:979][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.11.08-00.29.57:043][  0]LogAssetRegistry: FAssetRegistry took 0.0248 seconds to start up
-[2018.11.08-00.29.57:283][  0]LogInit: Selected Device Profile: [Windows]
-[2018.11.08-00.29.57:378][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.11.08-00.29.57:381][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.11.08-00.29.57:381][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.11.08-00.29.57:381][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.11.08-00.29.57:381][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.11.08-00.29.57:396][  0]LogNetVersion: WhiteBoxForest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1631238348)
-[2018.11.08-00.29.57:766][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.080185 seconds
-[2018.11.08-00.29.57:772][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.11.08-00.29.57:772][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2018.11.08-00.29.57:772][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.11.08-00.29.58:440][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.11.08-00.29.58:453][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.11.08-00.29.58:576][  0]SourceControl: Source control is disabled
-[2018.11.08-00.29.58:576][  0]SourceControl: Source control is disabled
-[2018.11.08-00.29.58:577][  0]SourceControl: Source control is disabled
-[2018.11.08-00.29.58:578][  0]SourceControl: Source control is disabled
-[2018.11.08-00.29.58:726][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.11.08-00.29.58:795][  0]LogOcInput: OculusInput pre-init called
-[2018.11.08-00.29.58:847][  0]LogEngine: Initializing Engine...
-[2018.11.08-00.29.58:848][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.11.08-00.29.58:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.08-00.29.58:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.08-00.29.58:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.08-00.29.58:849][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.08-00.29.59:002][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.11.08-00.29.59:013][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.11.08-00.29.59:029][  0]LogInit: XAudio2 using 'Headset Earphone (SteelSeries Arctis 5 Chat)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.11.08-00.29.59:047][  0]LogInit: FAudioDevice initialized.
-[2018.11.08-00.29.59:047][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.11.08-00.29.59:251][  0]LogDerivedDataCache: Saved boot cache 0.20s 84MB C:/Users/Bryce Kindred/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.11.08-00.29.59:260][  0]LogInit: Texture streaming: Enabled
-[2018.11.08-00.29.59:277][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.11.08-00.29.59:286][  0]LogInit: Transaction tracking system initialized
-[2018.11.08-00.29.59:303][  0]BlueprintLog: New page: Editor Load
-[2018.11.08-00.29.59:363][  0]LocalizationService: Localization service is disabled
-[2018.11.08-00.29.59:562][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.11.08-00.29.59:562][  0]LogCook: Display: Mobile HDR setting 1
-[2018.11.08-00.29.59:562][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.11.08-00.29.59:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.11.08-00.29.59:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.11.08-00.29.59:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.11.08-00.29.59:562][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.11.08-00.29.59:656][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bryce Kindred/Desktop/MPB/MPB/Content/' took 0.03s
-[2018.11.08-00.29.59:656][  0]SourceControl: Source control is disabled
-[2018.11.08-00.29.59:656][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.08-00.29.59:656][  0]LightingResults: New page: Lighting Build
-[2018.11.08-00.29.59:658][  0]MapCheck: New page: Map Check
-[2018.11.08-00.29.59:658][  0]LightingResults: New page: Lighting Build
-[2018.11.08-00.29.59:805][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2018.11.08-00.29.59:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.08-00.29.59:827][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.08-00.29.59:887][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.589ms to complete.
-[2018.11.08-00.29.59:887][  0]LogFileHelpers: Loading map 'Template_Default' took 0.232
-[2018.11.08-00.29.59:981][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-00.29.59:986][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-00.29.59:991][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-00.29.59:997][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.11.08-00.30.00:003][  0]LogCollectionManager: Loaded 0 collections in 0.001318 seconds
-[2018.11.08-00.30.00:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bryce Kindred/Desktop/MPB/MPB/Saved/Collections/' took 0.01s
-[2018.11.08-00.30.00:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bryce Kindred/Desktop/MPB/MPB/Content/Developers/BryceKindred/Collections/' took 0.01s
-[2018.11.08-00.30.00:042][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Bryce Kindred/Desktop/MPB/MPB/Content/Collections/' took 0.01s
-[2018.11.08-00.30.00:042][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.11.08-00.30.00:049][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2572 classes and 603 folders.
-[2018.11.08-00.30.00:054][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.08-00.30.00:095][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.08-00.30.00:099][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.11.08-00.30.00:110][  0]LogSlate: Took 0.000200 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.11.08-00.30.00:112][  0]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.11.08-00.30.00:117][  0]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.11.08-00.30.00:173][  0]LogRenderer: Reallocating scene render targets to support 1212x536 Format 10 NumSamples 1 (Frame:1).
-[2018.11.08-00.30.00:254][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.11.08-00.30.00:254][  0]LogLoad: (Engine Initialization) Total time: 6.51 seconds
-[2018.11.08-00.30.00:254][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.11.08-00.30.00:263][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.11.08-00.30.00:296][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.11.08-00.30.00:318][  0]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.08-00.30.00:352][  1]LogAssetRegistry: Asset discovery search completed in 3.3314 seconds
-[2018.11.08-00.30.00:354][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.11.08-00.30.00:354][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
-[2018.11.08-00.30.04:883][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.30.05:038][559]LogSlate: Took 0.000600 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.11.08-00.30.05:123][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
-[2018.11.08-00.30.05:123][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] InputAction Event references unknown Action 'Jump' for  InputAction Jump
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
-[2018.11.08-00.30.05:124][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
-[2018.11.08-00.30.05:127][559]LogBlueprint: Warning: [Compiler ThirdPersonCharacter] [0011.39] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 6 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
-[2018.11.08-00.30.05:767][559]LogAIModule: Creating AISystem for world WorldBuildingMPB
-[2018.11.08-00.30.05:786][559]LogAssetEditorManager: Opening Asset editor for World /Game/WorldBuildingMPB.WorldBuildingMPB
-[2018.11.08-00.30.05:807][559]Cmd: MAP LOAD FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.11.08-00.30.05:808][559]LightingResults: New page: Lighting Build
-[2018.11.08-00.30.05:808][559]LoadErrors: New page: Loading map: WorldBuildingMPB.umap
-[2018.11.08-00.30.05:808][559]MapCheck: New page: Map Check
-[2018.11.08-00.30.05:808][559]LightingResults: New page: Lighting Build
-[2018.11.08-00.30.05:859][559]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.11.08-00.30.05:891][559]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.11.08-00.30.05:983][559]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.13ms to complete.
-[2018.11.08-00.30.05:983][559]LogFileHelpers: Loading map 'WorldBuildingMPB' took 0.176
-[2018.11.08-00.30.05:998][559]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Bryce Kindred/Desktop/MPB/MPB/Content/' took 5.72s
-[2018.11.08-00.30.27:056][ 77]LogMaterial: Display: Missing cached shader map for material M_ButterFly_MeshEmit_Trans, compiling. 
-[2018.11.08-00.30.27:088][ 77]LogShaderCompilers: Display: Shaders left to compile 39
-[2018.11.08-00.30.27:088][ 77]LogShaderCompilers: Display: Shaders left to compile 29
-[2018.11.08-00.30.27:088][ 77]LogShaderCompilers: Display: Shaders left to compile 19
-[2018.11.08-00.30.27:088][ 77]LogShaderCompilers: Display: Shaders left to compile 9
-[2018.11.08-00.30.38:786][433]Cmd: DELETE
-[2018.11.08-00.30.38:786][433]Cmd: ACTOR DELETE
-[2018.11.08-00.30.38:796][433]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-00.30.38:838][433]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.30.38:856][433]LogEditorActor: Deleted 1 Actors (0.070 secs)
-[2018.11.08-00.30.40:350][611]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.31.02:570][260]LogMaterial: Display: Missing cached shader map for material M_BirdsDistant, compiling. 
-[2018.11.08-00.31.02:584][260]LogShaderCompilers: Display: Shaders left to compile 27
-[2018.11.08-00.31.02:584][260]LogShaderCompilers: Display: Shaders left to compile 17
-[2018.11.08-00.31.02:584][260]LogShaderCompilers: Display: Shaders left to compile 7
-[2018.11.08-00.31.02:584][260]LogMaterial: Display: Missing cached shader map for material M_Butterfly_OnGround, compiling. 
-[2018.11.08-00.31.02:617][260]LogShaderCompilers: Display: Shaders left to compile 39
-[2018.11.08-00.31.02:617][260]LogMaterial: Display: Missing cached shader map for material M_Zen_Bird, compiling. 
-[2018.11.08-00.31.03:064][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_Butterfly_IdleDC7F0BA34C4FC8975CD436B4E91D6E9F.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Particles/Butterflies/Trans/P_Butterfly_Idle.uasset'
-[2018.11.08-00.31.03:097][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_ButterFly_04_Trans7B7D13424CB1DE1D106457AEC54E83A1.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Meshes/Butterflies/SM_ButterFly_04_Trans.uasset'
-[2018.11.08-00.31.03:129][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_ButterFly_MeshEmit_Trans_InstFD5A74EA4C7456A151D07BA78CDEB94B.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Materials/Butterflies/M_ButterFly_MeshEmit_Trans_Inst.uasset'
-[2018.11.08-00.31.03:163][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_ButterFly_MeshEmit_Trans_Blue_B9D813BB41C0DC0E56BDA09E867A5EC5.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Materials/Butterflies/M_ButterFly_MeshEmit_Trans_Blue_Inst.uasset'
-[2018.11.08-00.31.03:221][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_ButterFly_MeshEmit_Trans836E05FB4689DC743B855180332F2049.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Materials/Butterflies/M_ButterFly_MeshEmit_Trans.uasset'
-[2018.11.08-00.31.03:265][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Butterfly_3A4DFDF75243FFDABBC05AF8B6E2D263B6.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Textures/Butterflies/T_Butterfly_3A.uasset'
-[2018.11.08-00.31.05:215][260]LogShaderCompilers: Display: Shaders left to compile 121
-[2018.11.08-00.31.05:215][260]LogShaderCompilers: Display: Shaders left to compile 111
-[2018.11.08-00.31.05:215][260]LogShaderCompilers: Display: Shaders left to compile 101
-[2018.11.08-00.31.05:215][260]LogShaderCompilers: Display: Shaders left to compile 91
-[2018.11.08-00.31.05:254][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_BirdsDistant14B2933F402218A7444C9FB53C11551E.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Materials/Birds/M_BirdsDistant.uasset'
-[2018.11.08-00.31.07:216][260]LogShaderCompilers: Display: Shaders left to compile 81
-[2018.11.08-00.31.07:217][260]LogShaderCompilers: Display: Shaders left to compile 71
-[2018.11.08-00.31.07:217][260]LogShaderCompilers: Display: Shaders left to compile 61
-[2018.11.08-00.31.07:217][260]LogShaderCompilers: Display: Shaders left to compile 51
-[2018.11.08-00.31.07:259][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Butterfly_OnGround0B168D0B4778C21CAC15EABF2FB34EA5.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Materials/Butterflies/M_Butterfly_OnGround.uasset'
-[2018.11.08-00.31.07:291][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_Zen_Bird0307F3494235F04F356D9996D87E3986.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Meshes/Bird/SM_Zen_Bird.uasset'
-[2018.11.08-00.31.07:322][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_HitchButterflyF7D240504D011CD88C478A9EF96B3D90.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Meshes/Butterflies/SM_HitchButterfly.uasset'
-[2018.11.08-00.31.07:356][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_BirdFlock_Near_02DD63214743E380C73F91E7A52937A1CF.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Particles/Birds/P_BirdFlock_Near_02.uasset'
-[2018.11.08-00.31.07:389][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_DistantBirds_CheapAD280C7C4A68665E7388CAA637346540.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Particles/Birds/P_DistantBirds_Cheap.uasset'
-[2018.11.08-00.31.07:454][260]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_FlipbookBird_01_Lit_DC4E25C2A448AFE1712E5BCB9536B7F48.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Textures/Birds/T_FlipbookBird_01_Lit_D.uasset'
-[2018.11.08-00.31.07:658][260]LogShaderCompilers: Display: Shaders left to compile 41
-[2018.11.08-00.31.09:652][399]LogShaderCompilers: Display: Shaders left to compile 31
-[2018.11.08-00.31.10:131][456]LogShaderCompilers: Display: Shaders left to compile 21
-[2018.11.08-00.31.10:248][470]LogShaderCompilers: Display: Shaders left to compile 11
-[2018.11.08-00.31.10:358][483]LogShaderCompilers: Display: Shaders left to compile 1
-[2018.11.08-00.31.22:785][961]Cmd: DELETE
-[2018.11.08-00.31.22:785][961]Cmd: ACTOR DELETE
-[2018.11.08-00.31.22:797][961]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.31.22:813][961]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.11.08-00.31.25:791][318]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.31.32:554][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_Dust_groundCoat402ACCCD4976801F81C5ABB2FAA15F52.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Ambient/Fog/P_Dust_groundCoat.uasset'
-[2018.11.08-00.31.32:579][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_DeadLeaves_Blow_Loop0EDF6F5F42623A3107EAE496FC141D53.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Ambient/leaves/P_DeadLeaves_Blow_Loop.uasset'
-[2018.11.08-00.31.32:601][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Shockwave_01_ADD_INST927DAC6D4079C2BD6D173E9893CEDB12.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/M_Shockwave_01_ADD_INST.uasset'
-[2018.11.08-00.31.32:622][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_CrackedGround_Ice_01_INSTF942C95D45EEEBA33712648C64E4C741.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Damage/M_CrackedGround_Ice_01_INST.uasset'
-[2018.11.08-00.31.32:644][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_LeafFlip_Trans_6X6_INST654FC1414C0986ED869087925E8C4235.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Env/M_LeafFlip_Trans_6X6_INST.uasset'
-[2018.11.08-00.31.32:668][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Flare_02_INST68610485446EE2295AB910BA832A85B9.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_02_INST.uasset'
-[2018.11.08-00.31.32:690][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Flare_03_INST8501E209446399FCCF27848776E08761.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_03_INST.uasset'
-[2018.11.08-00.31.32:712][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Flare_04_INST10D983AD408A63871E57F6A718B8532F.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_04_INST.uasset'
-[2018.11.08-00.31.32:735][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Flare_Noise_01_InstE80C529E414EC15B231C3E8FAA17DD88.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_Noise_01_Inst.uasset'
-[2018.11.08-00.31.32:757][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Flare_Vertical_01_INST17E70CAC4902AF1C893AD4B4580E461E.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Flare_Vertical_01_INST.uasset'
-[2018.11.08-00.31.32:778][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Glow_Vertical_INST2E24EBE24CE306EAF08223821FF87AF0.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Gradient/M_Glow_Vertical_INST.uasset'
-[2018.11.08-00.31.32:801][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_IceChunksBase754DC6E64F95919E94CA32A2B4888EF7.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/ICE/M_IceChunksBase.uasset'
-[2018.11.08-00.31.32:834][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_JaggedRockIce_MeshEmit_Blue33112C614689B7F6B833B7B2A806DB99.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/ICE/M_JaggedRockIce_MeshEmit_Blue.uasset'
-[2018.11.08-00.31.32:863][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Liquid_Spray_01_4X6_INSTE1118F38495A3F4FB724AD8D351067D2.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Liquid/M_Liquid_Spray_01_4X6_INST.uasset'
-[2018.11.08-00.31.32:887][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_LevelRing_006BE63E3F4162FAA402F8FBAA3A905976.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Mobile/M_LevelRing_00.uasset'
-[2018.11.08-00.31.32:911][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Smoke_01_8X8_INST1AA62D3D4AD635D9E377629ACA5B99CB.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_Smoke_01_8X8_INST.uasset'
-[2018.11.08-00.31.32:931][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Smoke_02_Trans_6X6_INST20F63DA64E7EF71FE3585580C735AAD2.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Smoke/M_Smoke_02_Trans_6X6_INST.uasset'
-[2018.11.08-00.31.32:953][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Spark_04_SubUV_1_4_INST386E5FD84F3A3447B8C0379C1AE853F6.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Spark/M_Spark_04_SubUV_1_4_INST.uasset'
-[2018.11.08-00.31.32:973][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Swipe_Mesh_Add_2Sided_01_INST4C15F605419E5C1A3654439BBBA54498.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Materials/Trails/M_Swipe_Mesh_Add_2Sided_01_INST.uasset'
-[2018.11.08-00.31.32:993][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_Rune_Sphere_DetailedB90752A14D02139A6CE5B08B4AE9F961.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Meshes/Mobile/SM_Rune_Sphere_Detailed.uasset'
-[2018.11.08-00.31.33:015][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_SpinSpiral3D92426149CE05EA5A3EFF8DC9FB1B22.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SpinSpiral.uasset'
-[2018.11.08-00.31.33:037][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_DmgField_Ice_02D5195B4E4DE321AF11B388973B7848C1.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Meshes/Skills/ICE/SM_DmgField_Ice_02.uasset'
-[2018.11.08-00.31.33:075][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_LevelExit_Ice207927664A12C005640C0687009D1CB4.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Mobile/combat/P_LevelExit_Ice.uasset'
-[2018.11.08-00.31.33:106][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_IceWall_SpawnLoop718B5B4C4FC5DEDE5A6D59A8381B8CE2.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Mobile/ICE/P_IceWall_SpawnLoop.uasset'
-[2018.11.08-00.31.33:136][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_AOE_Ice_CircleAttackEE68C5D3434A2008A3574EA1CFEFFC2C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Mobile/ICE/combat/P_AOE_Ice_CircleAttack.uasset'
-[2018.11.08-00.31.33:189][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_DmgField_Ice_0294503B6B4DB41252959452B60E653823.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Mobile/ICE/combat/P_DmgField_Ice_02.uasset'
-[2018.11.08-00.31.33:232][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_levelUp_Detail3804BCBF4B2BB2F8767352959287FFA4.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Mobile/Misc/P_levelUp_Detail.uasset'
-[2018.11.08-00.31.33:268][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_cracksIcey_01F580B7F2495E1C83C12BE7A2C31D09A0.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Damage/T_cracksIcey_01.uasset'
-[2018.11.08-00.31.33:291][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_cracks_01_NDAAE24DF474FBEDDCD255E807D44C15A.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Damage/T_cracks_01_N.uasset'
-[2018.11.08-00.31.33:312][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_LeafFlip_6X6_017674BC5E4D7F76267AFC709A164EA7B3.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Env/T_LeafFlip_6X6_01.uasset'
-[2018.11.08-00.31.33:330][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_BlastHalfF420EC584BB4A0084A0C7798A653FA12.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_BlastHalf.uasset'
-[2018.11.08-00.31.33:353][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_BlastWave3E8512C2447B630E4326CB8FB6546CF0.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_BlastWave.uasset'
-[2018.11.08-00.31.33:368][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_GlowNoise_Circular_020CCCA12A44BC3C249BA48CA64B99BA7B.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_GlowNoise_Circular_02.uasset'
-[2018.11.08-00.31.33:382][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_SoftFallOff5D9E59F4498BC5461E22C0B2C94189D4.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_SoftFallOff.uasset'
-[2018.11.08-00.31.33:396][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_starFlare_02B1A752814EE42C9D41578CB72484EB9E.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_starFlare_02.uasset'
-[2018.11.08-00.31.33:418][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_starFlare_031B52017E4F185B98BD7529A369D443BC.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_starFlare_03.uasset'
-[2018.11.08-00.31.33:434][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_SwipeTrail07F7CD9D415D7ECAA45BCDA0E2D3D023.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_SwipeTrail.uasset'
-[2018.11.08-00.31.33:453][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Vertical_GlowB1A64AC34AFB6B18F14E2E8872B379EA.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Gradient/T_Vertical_Glow.uasset'
-[2018.11.08-00.31.33:465][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_IceChunks79C3BE574A5691A86719589741F34256.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Ice/T_IceChunks.uasset'
-[2018.11.08-00.31.33:499][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Ice_Shard_Tiled_DE8BCA10F4FEDC91EBEAE3EB5BC13C4BE.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Ice/T_Ice_Shard_Tiled_D.uasset'
-[2018.11.08-00.31.33:544][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_JaggedRockSnowy_01_D48E2B97B44ACAAEE2A8AE199B9B159BE.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Ice/T_JaggedRockSnowy_01_D.uasset'
-[2018.11.08-00.31.33:590][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_JaggedRockSnowy_01_NE78E6A9B45A5BB059C0528B4BBA5F53C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Ice/T_JaggedRockSnowy_01_N.uasset'
-[2018.11.08-00.31.33:610][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_bloodTest_4X6EEB0C7F94D8F74FF64646F91587C2712.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Liquid/T_bloodTest_4X6.uasset'
-[2018.11.08-00.31.33:635][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_SmokeBall_01_8_82DA2D5D647C37ED3F1C372A697B04783.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Smoke/T_SmokeBall_01_8_8.uasset'
-[2018.11.08-00.31.33:660][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Smoke_subUV_01DDF5F9A3404E8ACBECF3F5993E62ACF7.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Smoke/T_Smoke_subUV_01.uasset'
-[2018.11.08-00.31.33:676][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Sparks_04_SubUV_1_4EF2DE95B442D1D410958F89401C561DE.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Spark/T_Sparks_04_SubUV_1_4.uasset'
-[2018.11.08-00.31.33:697][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_SpottyTile929F75AE4EF7DC0C021D1397D2DCAB2D.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Texture/T_SpottyTile.uasset'
-[2018.11.08-00.31.33:704][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Black_32195D0EFC4BBC4CAC98387A9DFB3B9934.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/FX_Textures/Tile/T_Black_32.uasset'
-[2018.11.08-00.31.33:725][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Add_Sprite_2Sided_Master332FBDC04630BCED553D91B6915DA948.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_2Sided_Master.uasset'
-[2018.11.08-00.31.33:746][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Add_Sprite_Master22A7D79E480D326F08BEE79AD35E055C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master.uasset'
-[2018.11.08-00.31.33:768][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Add_Sprite_Master_DepthFade039A7A9C4AC7E8442E47DB8A28ECA1A0.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_Master_DepthFade.uasset'
-[2018.11.08-00.31.33:790][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Add_Sprite_SubUV_Master726F065743A355FCE70B539A5B2D4804.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Add_Sprite_SubUV_Master.uasset'
-[2018.11.08-00.31.33:810][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Trans_Sprite_Master_DepthFadeD37CACA946C330DB55CDDC8E0F4D50C2.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_DepthFade.uasset'
-[2018.11.08-00.31.33:831][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Trans_Sprite_Master_Surface9BBAF10A496938E6832F6D8DF5251002.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_Master_Surface.uasset'
-[2018.11.08-00.31.33:852][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Trans_Sprite_SubUV_Master43AA6EA0437065D51057BEAEA184B1BD.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master.uasset'
-[2018.11.08-00.31.33:873][997]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Trans_Sprite_SubUV_Master_Dept4F3DBC4945DCF341EA82E38FCCE2FB3C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/InfinityBladeEffects/Effects/Masters/M_Trans_Sprite_SubUV_Master_DepthFade.uasset'
-[2018.11.08-00.31.54:509][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Zen_Bird_D1A5FC4284232F5162EBA28957ACED08B.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Assets/Textures/T_Zen_Bird_D.uasset'
-[2018.11.08-00.31.54:528][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/T_Zen_Bird_N1E82561F4C1D5108873710A2CCDCD500.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Assets/Textures/T_Zen_Bird_N.uasset'
-[2018.11.08-00.31.54:572][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Zen_Bird0BC93A964A3155D283B8C9BFDFFD45AD.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Assets/Materials/M_Zen_Bird.uasset'
-[2018.11.08-00.31.54:594][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/M_Zen_Bird_Inst51B6F4F546A5F2CE32C109AA366998B8.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Assets/Materials/M_Zen_Bird_Inst.uasset'
-[2018.11.08-00.31.54:862][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/SM_Zen_BirdE1AAD06E46DFB8A4DA5B4FAFA1389098.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Meshes/Bird/SM_Zen_Bird.uasset'
-[2018.11.08-00.31.54:879][132]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/P_BirdFlock_Near_022876179C4A4AA41ECF76D8A9976E254C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/ParticleSystems/Effects/Particles/Birds/P_BirdFlock_Near_02.uasset'
-[2018.11.08-00.32.25:949][840]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.32.43:048][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.32.50:028][684]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.32.57:765][595]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.33.22:761][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.33.38:555][335]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.33.49:396][568]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_GroundMound_10)
-[2018.11.08-00.34.04:769][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.34.15:194][643]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.34.15:464][674]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.34.16:115][749]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.34.24:409][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.34.46:345][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.35.00:546][908]Cmd: TRANSACTION UNDO
-[2018.11.08-00.35.00:546][908]LogEditorTransaction: Undo Move Actors
-[2018.11.08-00.35.09:208][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.35.21:715][430]Cmd: DUPLICATE
-[2018.11.08-00.35.21:715][430]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.35.25:591][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.35.30:993][534]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly2)
-[2018.11.08-00.35.38:272][386]Cmd: DUPLICATE
-[2018.11.08-00.35.38:272][386]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.35.49:658][732]Cmd: DUPLICATE
-[2018.11.08-00.35.49:658][732]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.35.57:935][717]Cmd: TRANSACTION UNDO
-[2018.11.08-00.35.57:935][717]LogEditorTransaction: Undo Move Actors
-[2018.11.08-00.35.58:849][823]Cmd: TRANSACTION UNDO
-[2018.11.08-00.35.58:849][823]LogEditorTransaction: Undo Move Actors
-[2018.11.08-00.36.01:041][ 84]Cmd: TRANSACTION UNDO
-[2018.11.08-00.36.01:041][ 84]LogEditorTransaction: Undo Duplicate Actors
-[2018.11.08-00.36.01:816][170]Cmd: TRANSACTION UNDO
-[2018.11.08-00.36.01:816][170]LogEditorTransaction: Undo Rotate Actors
-[2018.11.08-00.36.08:992][ 26]Cmd: DUPLICATE
-[2018.11.08-00.36.08:992][ 26]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.36.28:724][353]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly2)
-[2018.11.08-00.36.33:571][928]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly3)
-[2018.11.08-00.36.51:749][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.36.51:885][109]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.36.52:797][211]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.36.53:962][347]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.36.56:712][675]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Plinth_02)
-[2018.11.08-00.36.57:322][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly5)
-[2018.11.08-00.37.07:328][937]Cmd: DUPLICATE
-[2018.11.08-00.37.07:328][937]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.37.11:982][488]Cmd: TRANSACTION UNDO
-[2018.11.08-00.37.11:982][488]LogEditorTransaction: Undo Move Actors
-[2018.11.08-00.37.15:204][871]Cmd: TRANSACTION UNDO
-[2018.11.08-00.37.15:204][871]LogEditorTransaction: Undo Duplicate Actors
-[2018.11.08-00.37.32:455][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.32:659][944]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.33:362][ 23]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.35:852][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.36:056][332]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.36:868][425]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.37:618][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.37:803][532]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.38:536][614]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.39:195][689]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.39:395][712]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.39:965][776]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.41:647][967]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.41:770][980]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.42:693][ 80]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.43:551][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.43:700][196]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.45:049][350]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.45:734][428]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.45:876][444]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.47:309][610]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.48:150][707]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.48:349][730]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.49:399][850]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.53:007][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.53:144][275]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.54:023][368]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.54:769][453]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.54:928][471]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.55:748][564]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.56:548][656]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.37.56:723][676]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.37.57:538][772]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.38.02:456][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly15)
-[2018.11.08-00.38.08:097][ 13]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly16)
-[2018.11.08-00.38.12:332][515]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly14)
-[2018.11.08-00.38.15:353][871]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly7)
-[2018.11.08-00.38.18:136][198]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly6)
-[2018.11.08-00.38.21:134][552]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly12)
-[2018.11.08-00.38.25:448][ 48]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly8)
-[2018.11.08-00.38.28:657][414]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly13)
-[2018.11.08-00.38.31:291][724]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly11)
-[2018.11.08-00.38.34:073][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly10)
-[2018.11.08-00.38.38:982][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-00.38.48:264][692]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly10)
-[2018.11.08-00.38.54:539][417]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly11)
-[2018.11.08-00.38.58:066][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly13)
-[2018.11.08-00.39.01:284][168]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly12)
-[2018.11.08-00.39.03:840][468]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly8)
-[2018.11.08-00.39.07:918][923]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-00.39.14:461][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly12)
-[2018.11.08-00.39.19:412][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly16)
-[2018.11.08-00.39.23:806][760]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.39.28:687][343]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly14)
-[2018.11.08-00.39.32:313][758]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly8)
-[2018.11.08-00.39.41:769][870]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-00.39.44:659][211]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly6)
-[2018.11.08-00.39.47:190][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly11)
-[2018.11.08-00.39.49:481][778]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly13)
-[2018.11.08-00.39.52:511][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly10)
-[2018.11.08-00.39.55:549][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly2)
-[2018.11.08-00.39.58:226][810]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly15)
-[2018.11.08-00.40.00:902][125]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly)
-[2018.11.08-00.40.05:578][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly4)
-[2018.11.08-00.40.14:264][698]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly12)
-[2018.11.08-00.40.18:734][207]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly16)
-[2018.11.08-00.40.24:280][848]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly12)
-[2018.11.08-00.40.41:717][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.40.41:886][917]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.43:033][ 51]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.43:769][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.40.43:902][150]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.45:471][332]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.47:222][533]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.40.47:391][552]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.48:029][626]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.50:527][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.40.50:770][945]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.53:585][281]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.55:332][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.40.55:461][496]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.40.58:082][809]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.41.00:054][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.41.05:778][725]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tile_Dirt_10)
-[2018.11.08-00.41.06:437][799]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly20)
-[2018.11.08-00.41.13:571][632]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly19)
-[2018.11.08-00.41.17:761][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly17)
-[2018.11.08-00.41.20:987][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly18)
-[2018.11.08-00.41.24:823][925]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly19)
-[2018.11.08-00.41.30:751][612]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly20)
-[2018.11.08-00.41.39:327][608]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly21)
-[2018.11.08-00.42.04:862][623]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.42.13:775][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.42.38:302][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.42.43:548][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.42.47:314][634]LogEditorViewport: Clicking on Actor (context menu): Emitter (P_Dust_groundCoat3)
-[2018.11.08-00.42.47:335][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-00.42.57:139][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.43.01:314][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.43.24:005][975]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.43.54:250][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.01:306][411]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.14:256][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.19:907][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.33:914][221]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.46:808][754]Cmd: DELETE
-[2018.11.08-00.44.46:808][754]Cmd: ACTOR DELETE
-[2018.11.08-00.44.46:821][754]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.44.46:839][754]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-00.44.48:602][965]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.44.55:772][817]Cmd: DELETE
-[2018.11.08-00.44.55:772][817]Cmd: ACTOR DELETE
-[2018.11.08-00.44.55:786][817]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.44.55:804][817]LogEditorActor: Deleted 1 Actors (0.032 secs)
-[2018.11.08-00.44.57:976][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.45.03:310][709]Cmd: DELETE
-[2018.11.08-00.45.03:310][709]Cmd: ACTOR DELETE
-[2018.11.08-00.45.03:323][709]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.45.03:340][709]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.11.08-00.45.04:734][876]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.45.09:592][457]LogActorFactory: Actor Factory created SM_SpinSpiral
-[2018.11.08-00.45.09:910][494]LogActorFactory: Actor Factory created SM_SpinSpiral
-[2018.11.08-00.45.12:627][815]Cmd: DELETE
-[2018.11.08-00.45.12:627][815]Cmd: ACTOR DELETE
-[2018.11.08-00.45.12:641][815]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-00.45.12:659][815]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-00.45.21:388][824]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_DeadLeaves_Blow_Loop)
-[2018.11.08-00.45.39:860][997]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
-[2018.11.08-00.45.42:010][221]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_MountainGrass_7)
-[2018.11.08-00.45.45:326][606]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_Tent_03)
-[2018.11.08-00.46.20:598][807]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_DeadLeaves_Blow_Loop3)
-[2018.11.08-00.46.49:302][225]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.11.08-00.46.50:030][298]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_Castle_Wall_21)
-[2018.11.08-00.47.00:073][471]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat)
-[2018.11.08-00.47.05:349][ 72]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat2)
-[2018.11.08-00.47.11:754][810]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat3)
-[2018.11.08-00.47.16:478][330]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat4)
-[2018.11.08-00.47.20:440][780]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat5)
-[2018.11.08-00.47.35:714][589]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Bld_Castle_Wall_18)
-[2018.11.08-00.48.03:039][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.48.10:837][746]Cmd: DELETE
-[2018.11.08-00.48.10:837][746]Cmd: ACTOR DELETE
-[2018.11.08-00.48.10:850][746]LogEditorActor: Deleted Actor: Emitter
-[2018.11.08-00.48.10:867][746]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.11.08-00.48.12:648][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.48.56:556][215]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.48.57:433][316]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.49.02:813][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.49.03:018][970]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.49.04:468][136]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.49.16:447][560]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.49.16:598][577]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.49.17:611][695]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.49.36:504][903]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.49.52:757][831]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.49.54:869][ 84]Cmd: MODE GRID=0
-[2018.11.08-00.50.03:765][142]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.50.03:933][161]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.50.05:870][390]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.50.23:924][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.50.54:985][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly17)
-[2018.11.08-00.51.15:539][608]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.51.15:698][625]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.51.17:384][817]LogActorFactory: Actor Factory created SM_HitchButterfly
-[2018.11.08-00.51.29:770][274]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly6)
-[2018.11.08-00.51.33:379][701]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly5)
-[2018.11.08-00.51.36:227][ 37]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-00.51.38:495][303]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly8)
-[2018.11.08-00.51.49:741][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.52.44:457][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-00.52.45:174][185]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB_Auto19B7ADC3646C0A37F015C6A90FDA57856.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/Autosaves/Game/WorldBuildingMPB_Auto1.umap'
-[2018.11.08-00.52.45:177][185]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 0.704
-[2018.11.08-00.52.45:177][185]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.704
-[2018.11.08-00.55.16:745][352]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tree_20)
-[2018.11.08-00.55.17:909][479]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_MountainGrass_8)
-[2018.11.08-00.55.43:326][486]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat5)
-[2018.11.08-00.55.45:097][694]Cmd: DUPLICATE
-[2018.11.08-00.55.45:097][694]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.56.26:902][565]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat)
-[2018.11.08-00.56.28:544][756]Cmd: DUPLICATE
-[2018.11.08-00.56.28:544][756]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.56.40:265][126]Cmd: DUPLICATE
-[2018.11.08-00.56.40:265][126]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.57.03:434][891]Cmd: DUPLICATE
-[2018.11.08-00.57.03:434][891]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.57.07:996][432]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.11.08-00.57.27:979][797]Cmd: DUPLICATE
-[2018.11.08-00.57.27:979][797]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.57.37:886][977]Cmd: DUPLICATE
-[2018.11.08-00.57.37:886][977]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.57.42:963][580]Cmd: DUPLICATE
-[2018.11.08-00.57.42:963][580]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.58.09:728][782]Cmd: DUPLICATE
-[2018.11.08-00.58.09:728][782]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.58.22:177][252]Cmd: DUPLICATE
-[2018.11.08-00.58.22:177][252]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.58.38:096][133]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat8)
-[2018.11.08-00.58.39:629][313]Cmd: DUPLICATE
-[2018.11.08-00.58.39:629][313]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.58.47:134][205]Cmd: DUPLICATE
-[2018.11.08-00.58.47:134][205]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.59.02:176][971]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat7)
-[2018.11.08-00.59.06:100][435]Cmd: DUPLICATE
-[2018.11.08-00.59.06:100][435]Cmd: ACTOR DUPLICATE
-[2018.11.08-00.59.33:485][696]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-00.59.35:144][892]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-00.59.35:265][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-00.59.35:977][892]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB866407F84DC4DCA1F0B700A63DAED143.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-00.59.35:996][892]LogFileHelpers: Saving map 'WorldBuildingMPB' took 0.846
-[2018.11.08-01.00.38:829][426]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.00.42:845][907]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.00.44:528][106]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.00.46:210][307]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.00.46:217][307]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.00.46:931][307]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB15ADA65C4DF00DB9850B9888ED3DF5B2.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-01.00.47:633][388]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.01.04:167][341]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_DeadLeaves_Blow_Loop)
-[2018.11.08-01.01.18:456][964]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Cliff_4)
-[2018.11.08-01.01.37:383][189]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly2)
-[2018.11.08-01.01.38:306][295]Cmd: DELETE
-[2018.11.08-01.01.38:306][295]Cmd: ACTOR DELETE
-[2018.11.08-01.01.38:320][295]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.01.38:339][295]LogEditorActor: Deleted 1 Actors (0.033 secs)
-[2018.11.08-01.01.44:162][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly14)
-[2018.11.08-01.01.45:011][ 76]Cmd: DELETE
-[2018.11.08-01.01.45:011][ 76]Cmd: ACTOR DELETE
-[2018.11.08-01.01.45:024][ 76]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.01.45:041][ 76]LogEditorActor: Deleted 1 Actors (0.030 secs)
-[2018.11.08-01.01.48:254][461]Cmd: TRANSACTION UNDO
-[2018.11.08-01.01.48:254][461]LogEditorTransaction: Undo Delete Actors
-[2018.11.08-01.01.51:728][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Grass_4)
-[2018.11.08-01.01.59:642][813]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly10)
-[2018.11.08-01.02.00:506][912]Cmd: DELETE
-[2018.11.08-01.02.00:506][912]Cmd: ACTOR DELETE
-[2018.11.08-01.02.00:519][912]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.00:535][912]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2018.11.08-01.02.06:850][669]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-01.02.07:678][764]Cmd: DELETE
-[2018.11.08-01.02.07:678][764]Cmd: ACTOR DELETE
-[2018.11.08-01.02.07:692][764]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.07:709][764]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-01.02.09:826][ 18]Cmd: TRANSACTION UNDO
-[2018.11.08-01.02.09:826][ 18]LogEditorTransaction: Undo Delete Actors
-[2018.11.08-01.02.11:532][213]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly13)
-[2018.11.08-01.02.12:569][333]Cmd: DELETE
-[2018.11.08-01.02.12:569][333]Cmd: ACTOR DELETE
-[2018.11.08-01.02.12:583][333]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.12:599][333]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-01.02.16:105][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Prop_Plinth_02)
-[2018.11.08-01.02.17:720][942]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly15)
-[2018.11.08-01.02.18:543][ 36]Cmd: DELETE
-[2018.11.08-01.02.18:543][ 36]Cmd: ACTOR DELETE
-[2018.11.08-01.02.18:556][ 36]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.18:574][ 36]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-01.02.25:295][842]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly8)
-[2018.11.08-01.02.26:280][956]Cmd: DELETE
-[2018.11.08-01.02.26:280][956]Cmd: ACTOR DELETE
-[2018.11.08-01.02.26:294][956]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.26:311][956]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-01.02.32:219][663]Cmd: TRANSACTION UNDO
-[2018.11.08-01.02.32:219][663]LogEditorTransaction: Undo Delete Actors
-[2018.11.08-01.02.34:944][962]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_HitchButterfly9)
-[2018.11.08-01.02.35:766][ 56]Cmd: DELETE
-[2018.11.08-01.02.35:766][ 56]Cmd: ACTOR DELETE
-[2018.11.08-01.02.35:779][ 56]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.11.08-01.02.35:796][ 56]LogEditorActor: Deleted 1 Actors (0.031 secs)
-[2018.11.08-01.02.44:663][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.02.45:784][250]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.02.45:901][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.02.46:613][250]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB65F029254D4175A985B8CEB2A973A105.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-01.02.46:628][250]LogFileHelpers: Saving map 'WorldBuildingMPB' took 0.840
-[2018.11.08-01.02.46:959][288]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.02.47:838][392]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.02.47:842][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.02.48:557][392]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB1BC6B17B44D4BCC56B907083BEDAEAC0.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-01.03.02:814][ 99]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Butterfly_Idle3)
-[2018.11.08-01.03.04:085][247]Cmd: DUPLICATE
-[2018.11.08-01.03.04:085][247]Cmd: ACTOR DUPLICATE
-[2018.11.08-01.03.09:987][945]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Butterfly_Idle3)
-[2018.11.08-01.03.27:005][955]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.28:671][152]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.28:783][152]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.03.29:492][152]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB4BDB5D6749F77B9FD846C3862549A185.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-01.03.29:509][152]LogFileHelpers: Saving map 'WorldBuildingMPB' took 0.834
-[2018.11.08-01.03.29:864][193]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.31:613][402]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.31:616][402]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.03.32:329][402]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPB91D0839D422C6569A2A5C3AA59BBFE8F.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
-[2018.11.08-01.03.41:070][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_MountainGrass_7)
-[2018.11.08-01.03.57:574][420]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.59:114][602]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.59:862][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.11.08-01.03.59:866][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.11.08-01.04.00:583][691]LogSavePackage: Moving '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Saved/WorldBuildingMPBA4132A9E47028FCC03347D9168FC077C.tmp' to '../../../../../../Users/Bryce Kindred/Desktop/MPB/MPB/Content/WorldBuildingMPB.umap'
+[2018.11.08-19.15.25:268][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.08-19.15.25:268][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.11.08-19.15.25:286][  0]LogHAL: Display: Platform has ~ 32 GB [34313523200 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.11.08-19.15.25:286][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.11.08-19.15.25:286][  0]LogInit: Going up to parent DeviceProfile []
+[2018.11.08-19.15.25:286][  0]LogInit: Computer: BRYANS-PC
+[2018.11.08-19.15.25:286][  0]LogInit: User: Bryan
+[2018.11.08-19.15.25:286][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.11.08-19.15.25:286][  0]LogInit: High frequency timer resolution =2.531252 MHz
+[2018.11.08-19.15.25:287][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2018.11.08-19.15.25:287][  0]LogMemory: Platform Memory Stats for Windows
+[2018.11.08-19.15.25:287][  0]LogMemory: Process Physical Memory: 101.72 MB used, 101.72 MB peak
+[2018.11.08-19.15.25:287][  0]LogMemory: Process Virtual Memory: 94.30 MB used, 94.30 MB peak
+[2018.11.08-19.15.25:287][  0]LogMemory: Physical Memory: 9099.29 MB used,  23624.64 MB free, 32723.93 MB total
+[2018.11.08-19.15.25:287][  0]LogMemory: Virtual Memory: 4655.29 MB used,  23624.64 MB free, 134217728.00 MB total
+[2018.11.08-19.15.25:316][  0]LogInit: Using OS detected language (en-US).
+[2018.11.08-19.15.25:316][  0]LogInit: Using OS detected locale (en-US).
+[2018.11.08-19.15.25:317][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.11.08-19.15.25:767][  0]LogStreaming: Display: Took  0.451s to InitEngineTextLocalization.
+[2018.11.08-19.15.25:767][  0]LogInit: Setting process to per monitor DPI aware
+[2018.11.08-19.15.25:812][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.11.08-19.15.25:812][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.11.08-19.15.26:227][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.11.08-19.15.26:227][  0]LogD3D11RHI: D3D11 adapters:
+[2018.11.08-19.15.26:339][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2018.11.08-19.15.26:339][  0]LogD3D11RHI:       6052/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.11.08-19.15.26:341][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.11.08-19.15.26:342][  0]LogD3D11RHI:       0/0/16361 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.11.08-19.15.26:342][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.11.08-19.15.26:351][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.11.08-19.15.26:352][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2018.11.08-19.15.26:352][  0]LogWindows: EnumDisplayDevices:
+[2018.11.08-19.15.26:352][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2018.11.08-19.15.26:353][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2018.11.08-19.15.26:353][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.11.08-19.15.26:354][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2018.11.08-19.15.26:354][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.11.08-19.15.26:354][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2018.11.08-19.15.26:355][  0]LogD3D11RHI:   Driver Version: 416.34 (internal:25.21.14.1634, unified:416.34)
+[2018.11.08-19.15.26:355][  0]LogD3D11RHI:      Driver Date: 10-10-2018
+[2018.11.08-19.15.26:355][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2018.11.08-19.15.26:411][  0]LogD3D11RHI: Async texture creation enabled
+[2018.11.08-19.15.26:447][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.11.08-19.15.26:549][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../PaintBrushMachiname/MagicPaintbrush/Intermediate/Shaders/WorkingDirectory/19344/).
+[2018.11.08-19.15.26:549][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Bryan/AppData/Local/Temp/UnrealShaderWorkingDir/E884E60447466975955DCC9AC52E34F6/'.
+[2018.11.08-19.15.26:888][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.11.08-19.15.26:903][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.11.08-19.15.26:918][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.11.08-19.15.26:936][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.11.08-19.15.26:950][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.11.08-19.15.26:965][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.11.08-19.15.26:979][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.11.08-19.15.26:995][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.11.08-19.15.27:001][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.11.08-19.15.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:096][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:097][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.11.08-19.15.27:098][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.11.08-19.15.27:165][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.08-19.15.27:165][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.11.08-19.15.27:193][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.08-19.15.27:194][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.11.08-19.15.27:210][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.11.08-19.15.27:226][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.11.08-19.15.27:242][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.11.08-19.15.27:258][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.11.08-19.15.27:269][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.11.08-19.15.27:270][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.11.08-19.15.27:333][  0]LogXGEController: Cleaning working directory: C:/Users/Bryan/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.11.08-19.15.27:333][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.11.08-19.15.27:333][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.11.08-19.15.27:334][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.11.08-19.15.28:225][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.11.08-19.15.28:292][  0]LogDerivedDataCache: Loaded boot cache 0.07s 71MB C:/Users/Bryan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.08-19.15.28:293][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Bryan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.11.08-19.15.28:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../PaintBrushMachiname/MagicPaintbrush/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.11.08-19.15.28:293][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.11.08-19.15.28:293][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../PaintBrushMachiname/MagicPaintbrush/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.11.08-19.15.28:293][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.11.08-19.15.28:309][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.11.08-19.15.28:321][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bryan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.11.08-19.15.28:321][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.11.08-19.15.28:321][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.11.08-19.15.28:345][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.11.08-19.15.28:346][  0]LogSlate: Using FreeType 2.6.0
+[2018.11.08-19.15.28:347][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.11.08-19.15.28:450][  0]LogAssetRegistry: FAssetRegistry took 0.0283 seconds to start up
+[2018.11.08-19.15.28:854][  0]LogInit: Selected Device Profile: [Windows]
+[2018.11.08-19.15.28:919][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.11.08-19.15.28:923][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.11.08-19.15.28:923][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.11.08-19.15.28:923][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.11.08-19.15.28:923][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.11.08-19.15.29:049][  0]LogNetVersion: WhiteBoxForest 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1631238348)
+[2018.11.08-19.15.29:774][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.153024 seconds
+[2018.11.08-19.15.29:783][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.11.08-19.15.29:783][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2018.11.08-19.15.29:783][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.11.08-19.15.30:955][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.11.08-19.15.30:969][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.11.08-19.15.31:144][  0]SourceControl: Source control is disabled
+[2018.11.08-19.15.31:144][  0]SourceControl: Source control is disabled
+[2018.11.08-19.15.31:146][  0]SourceControl: Source control is disabled
+[2018.11.08-19.15.31:148][  0]SourceControl: Source control is disabled
+[2018.11.08-19.15.31:333][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.11.08-19.15.31:455][  0]LogOcInput: OculusInput pre-init called
+[2018.11.08-19.15.31:524][  0]LogEngine: Initializing Engine...
+[2018.11.08-19.15.31:554][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2018.11.08-19.15.31:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.08-19.15.31:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.08-19.15.31:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.08-19.15.31:555][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.08-19.15.31:835][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.11.08-19.15.31:847][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.11.08-19.15.31:883][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.08-19.15.31:975][  0]LogInit: FAudioDevice initialized.
+[2018.11.08-19.15.31:975][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.11.08-19.15.32:028][  0]LogDerivedDataCache: Saved boot cache 0.05s 71MB C:/Users/Bryan/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.11.08-19.15.32:056][  0]LogInit: Texture streaming: Enabled
+[2018.11.08-19.15.32:071][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.11.08-19.15.32:088][  0]LogInit: Transaction tracking system initialized
+[2018.11.08-19.15.32:109][  0]BlueprintLog: New page: Editor Load
+[2018.11.08-19.15.32:189][  0]LocalizationService: Localization service is disabled
+[2018.11.08-19.15.32:639][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.11.08-19.15.32:639][  0]LogCook: Display: Mobile HDR setting 1
+[2018.11.08-19.15.32:639][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.11.08-19.15.32:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.11.08-19.15.32:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.11.08-19.15.32:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.11.08-19.15.32:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.11.08-19.15.32:778][  0]LogFileCache: Scanning file cache for directory 'D:/PaintBrushMachiname/MagicPaintbrush/Content/' took 0.05s
+[2018.11.08-19.15.32:778][  0]SourceControl: Source control is disabled
+[2018.11.08-19.15.32:778][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.08-19.15.32:778][  0]LightingResults: New page: Lighting Build
+[2018.11.08-19.15.32:781][  0]MapCheck: New page: Map Check
+[2018.11.08-19.15.32:781][  0]LightingResults: New page: Lighting Build
+[2018.11.08-19.15.32:991][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.11.08-19.15.33:001][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.08-19.15.33:028][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.08-19.15.33:115][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.429ms to complete.
+[2018.11.08-19.15.33:115][  0]LogFileHelpers: Loading map 'Template_Default' took 0.337
+[2018.11.08-19.15.33:271][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.08-19.15.33:282][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.08-19.15.33:295][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.08-19.15.33:305][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.11.08-19.15.33:312][  0]LogCollectionManager: Loaded 0 collections in 0.001867 seconds
+[2018.11.08-19.15.33:360][  0]LogFileCache: Scanning file cache for directory 'D:/PaintBrushMachiname/MagicPaintbrush/Saved/Collections/' took 0.01s
+[2018.11.08-19.15.33:360][  0]LogFileCache: Scanning file cache for directory 'D:/PaintBrushMachiname/MagicPaintbrush/Content/Developers/Bryan/Collections/' took 0.01s
+[2018.11.08-19.15.33:360][  0]LogFileCache: Scanning file cache for directory 'D:/PaintBrushMachiname/MagicPaintbrush/Content/Collections/' took 0.01s
+[2018.11.08-19.15.33:360][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.11.08-19.15.33:372][  0]LogContentBrowser: Native class hierarchy populated in 0.0118 seconds. Added 2572 classes and 603 folders.
+[2018.11.08-19.15.33:384][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.11.08-19.15.33:484][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.11.08-19.15.33:490][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.11.08-19.15.33:515][  0]LogSlate: Took 0.000981 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.11.08-19.15.33:520][  0]LogSlate: Took 0.000768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.11.08-19.15.33:531][  0]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.11.08-19.15.33:643][  0]LogRenderer: Reallocating scene render targets to support 912x420 Format 10 NumSamples 1 (Frame:1).
+[2018.11.08-19.15.33:816][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.11.08-19.15.33:816][  0]LogLoad: (Engine Initialization) Total time: 11.75 seconds
+[2018.11.08-19.15.33:816][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.11.08-19.15.33:835][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.08-19.15.33:870][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.11.08-19.15.33:914][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.08-19.15.33:922][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/PaintBrushMachiname/MagicPaintbrush/Content/' took 0.07s
+[2018.11.08-19.15.40:281][369]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.11.08-19.15.41:753][457]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.15.41:911][466]LogSlate: Took 0.000353 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: T_LeafFlip_6X6_01 (AutoDXT, 1024X1024)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: T_FlipbookBird_01_Lit_D (AutoDXT, 2048X2048)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: T_Smoke_subUV_01 (AutoDXT, 1024X1024)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: T_Butterfly_3A (AutoDXT, 2048X2048)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.11.08-19.15.46:146][466]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.11.08-19.15.46:325][466]LogMaterial: Display: Missing cached shader map for material M_Trans_Sprite_SubUV_Master, compiling. 
+[2018.11.08-19.15.46:616][466]LogShaderCompilers: Display: Shaders left to compile 35
+[2018.11.08-19.15.46:616][466]LogShaderCompilers: Display: Shaders left to compile 25
+[2018.11.08-19.15.46:616][466]LogShaderCompilers: Display: Shaders left to compile 15
+[2018.11.08-19.15.46:616][466]LogShaderCompilers: Display: Shaders left to compile 5
+[2018.11.08-19.15.47:020][466]LogStaticMesh: Building static mesh SM_ButterFly_04_Trans...
+[2018.11.08-19.15.47:067][466]LogStaticMesh: Built static mesh [0.05s] /Game/ParticleSystems/Effects/Meshes/Butterflies/SM_ButterFly_04_Trans.SM_ButterFly_04_Trans
+[2018.11.08-19.15.50:304][466]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.11.08-19.15.50:304][466]LogTexture: Display: Building textures: T_Zen_Bird_N (BC5, 512X512)
+[2018.11.08-19.15.50:304][466]LogTexture: Display: Building textures: T_Zen_Bird_D (AutoDXT, 512X512)
+[2018.11.08-19.15.50:304][466]LogMaterial: Display: Missing cached shader map for material M_ButterFly_MeshEmit_Trans, compiling. 
+[2018.11.08-19.15.50:434][466]LogStaticMesh: Building static mesh SM_Zen_Bird...
+[2018.11.08-19.15.50:439][466]LogStaticMesh: Built static mesh [0.01s] /Game/ParticleSystems/Effects/Meshes/Bird/SM_Zen_Bird.SM_Zen_Bird
+[2018.11.08-19.15.50:445][466]LogMaterial: Display: Missing cached shader map for material M_Zen_Bird, compiling. 
+[2018.11.08-19.15.50:623][466]LogMaterial: Display: Missing cached shader map for material M_BirdsDistant, compiling. 
+[2018.11.08-19.15.50:687][466]LogMaterial: Display: Missing cached shader map for material M_Trans_Sprite_SubUV_Master_DepthFade, compiling. 
+[2018.11.08-19.15.50:780][466]LogStaticMesh: Building static mesh SM_HitchButterfly...
+[2018.11.08-19.15.50:780][466]LogStaticMesh: Built static mesh [0.00s] /Game/ParticleSystems/Effects/Meshes/Butterflies/SM_HitchButterfly.SM_HitchButterfly
+[2018.11.08-19.15.50:803][466]LogMaterial: Display: Missing cached shader map for material M_Butterfly_OnGround, compiling. 
+[2018.11.08-19.15.50:973][466]LogAIModule: Creating AISystem for world WorldBuildingMPB
+[2018.11.08-19.15.51:068][466]LogAssetEditorManager: Opening Asset editor for World /Game/WorldBuildingMPB.WorldBuildingMPB
+[2018.11.08-19.15.51:110][466]Cmd: MAP LOAD FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.08-19.15.51:111][466]LightingResults: New page: Lighting Build
+[2018.11.08-19.15.51:112][466]LoadErrors: New page: Loading map: WorldBuildingMPB.umap
+[2018.11.08-19.15.51:112][466]MapCheck: New page: Map Check
+[2018.11.08-19.15.51:113][466]LightingResults: New page: Lighting Build
+[2018.11.08-19.15.51:276][466]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.08-19.15.51:361][466]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.08-19.15.51:570][466]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 208.945ms to complete.
+[2018.11.08-19.15.51:572][466]LogFileHelpers: Loading map 'WorldBuildingMPB' took 0.463
+[2018.11.08-19.15.52:679][509]LogShaderCompilers: Display: Shaders left to compile 224
+[2018.11.08-19.15.52:772][515]LogShaderCompilers: Display: Shaders left to compile 214
+[2018.11.08-19.15.53:441][555]LogShaderCompilers: Display: Shaders left to compile 204
+[2018.11.08-19.15.54:198][599]LogShaderCompilers: Display: Shaders left to compile 194
+[2018.11.08-19.15.55:523][671]LogShaderCompilers: Display: Shaders left to compile 184
+[2018.11.08-19.15.56:601][727]LogShaderCompilers: Display: Shaders left to compile 174
+[2018.11.08-19.15.57:465][775]LogShaderCompilers: Display: Shaders left to compile 164
+[2018.11.08-19.15.58:831][844]LogShaderCompilers: Display: Shaders left to compile 154
+[2018.11.08-19.15.58:938][848]LogShaderCompilers: Display: Shaders left to compile 144
+[2018.11.08-19.16.00:146][900]LogShaderCompilers: Display: Shaders left to compile 134
+[2018.11.08-19.16.02:560][ 16]LogShaderCompilers: Display: Shaders left to compile 124
+[2018.11.08-19.16.03:026][ 39]LogShaderCompilers: Display: Shaders left to compile 114
+[2018.11.08-19.16.03:698][ 74]LogShaderCompilers: Display: Shaders left to compile 104
+[2018.11.08-19.16.03:958][ 87]LogShaderCompilers: Display: Shaders left to compile 94
+[2018.11.08-19.16.07:210][223]LogShaderCompilers: Display: Shaders left to compile 84
+[2018.11.08-19.16.09:080][298]LogShaderCompilers: Display: Shaders left to compile 74
+[2018.11.08-19.16.09:569][322]LogShaderCompilers: Display: Shaders left to compile 64
+[2018.11.08-19.16.10:875][389]LogShaderCompilers: Display: Shaders left to compile 54
+[2018.11.08-19.16.12:220][454]LogShaderCompilers: Display: Shaders left to compile 44
+[2018.11.08-19.16.12:962][494]LogShaderCompilers: Display: Shaders left to compile 34
+[2018.11.08-19.16.13:714][506]LogRenderer: Reallocating scene render targets to support 1144x552 Format 10 NumSamples 1 (Frame:1046).
+[2018.11.08-19.16.14:397][543]LogShaderCompilers: Display: Shaders left to compile 24
+[2018.11.08-19.16.14:740][562]LogAssetRegistry: Asset discovery search completed in 46.3114 seconds
+[2018.11.08-19.16.14:742][562]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2018.11.08-19.16.15:457][600]LogShaderCompilers: Display: Shaders left to compile 14
+[2018.11.08-19.16.16:398][656]LogShaderCompilers: Display: Shaders left to compile 4
+[2018.11.08-19.16.52:906][827]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.16.55:076][953]LogAssetEditorManager: Opening Asset editor for LevelSequence /Game/Cinematics/Sequences/MovieReel/MovieReelMaster.MovieReelMaster
+[2018.11.08-19.18.10:999][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.18.42:962][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.19.53:776][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.19.53:950][577]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.19.54:981][633]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.20.01:323][972]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.01:475][980]LogActorFactory: Actor Factory created SM_Env_Tree_03
+[2018.11.08-19.20.02:301][ 26]LogActorFactory: Actor Factory created SM_Env_Tree_03
+[2018.11.08-19.20.03:133][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.03:300][ 79]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.20.04:350][135]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.20.06:295][243]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.06:448][251]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_02
+[2018.11.08-19.20.08:697][379]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_02
+[2018.11.08-19.20.09:684][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.09:837][441]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.20.11:320][519]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.20.13:917][671]Cmd: DELETE
+[2018.11.08-19.20.13:917][671]Cmd: ACTOR DELETE
+[2018.11.08-19.20.14:024][671]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.08-19.20.14:081][671]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.08-19.20.14:115][671]LogEditorActor: Deleted 1 Actors (0.109 secs)
+[2018.11.08-19.20.15:536][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.16:174][791]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.20.17:337][857]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.20.23:429][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.23:596][218]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.20.25:782][338]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.20.29:023][521]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.29:167][527]LogActorFactory: Actor Factory created SM_Env_RockPile_03
+[2018.11.08-19.20.29:836][561]LogActorFactory: Actor Factory created SM_Env_RockPile_03
+[2018.11.08-19.20.31:004][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.31:178][633]LogActorFactory: Actor Factory created SM_Env_RockPile_02
+[2018.11.08-19.20.34:056][793]LogActorFactory: Actor Factory created SM_Env_RockPile_02
+[2018.11.08-19.20.34:642][818]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_RockPile_03)
+[2018.11.08-19.20.37:569][985]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.37:740][994]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.20.38:573][ 40]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.20.39:139][ 67]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.39:342][ 78]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.20.40:294][129]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.20.40:844][156]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.20.40:998][164]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.20.42:149][228]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.21.27:528][910]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.03:429][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.22:982][165]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_GroundMound_14)
+[2018.11.08-19.22.23:256][165]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.08-19.22.23:659][186]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_GroundMound_14)
+[2018.11.08-19.22.23:696][186]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.08-19.22.37:838][ 24]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tree_Twisted_18)
+[2018.11.08-19.22.41:442][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.49:549][714]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.49:764][725]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.22.50:588][770]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.22.52:286][865]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.52:490][876]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.22.53:185][913]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.22.53:816][945]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.22.53:983][953]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.22.54:718][993]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.23.01:579][380]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.01:716][387]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.23.03:040][462]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.23.03:512][487]LogActorFactory: Actor Factory created SM_Env_Tree_01
+[2018.11.08-19.23.04:311][531]Cmd: DELETE
+[2018.11.08-19.23.04:312][531]Cmd: ACTOR DELETE
+[2018.11.08-19.23.04:337][531]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.11.08-19.23.04:364][531]LogEditorActor: Deleted 1 Actors (0.052 secs)
+[2018.11.08-19.23.05:411][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.05:583][601]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.23.06:452][650]LogActorFactory: Actor Factory created SM_Env_Tree_02
+[2018.11.08-19.23.09:006][796]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.09:262][810]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.23.11:450][929]LogActorFactory: Actor Factory created SM_Env_Tree_Twisted_01
+[2018.11.08-19.23.19:277][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.19:462][397]LogActorFactory: Actor Factory created SM_Env_Tree_03
+[2018.11.08-19.23.21:729][521]LogActorFactory: Actor Factory created SM_Env_Tree_03
+[2018.11.08-19.23.22:997][592]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.26:346][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.46:656][996]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.56:140][561]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.23.57:520][628]LogAIModule: Creating AISystem for world ThroneRoom
+[2018.11.08-19.23.57:529][628]LogAssetEditorManager: Opening Asset editor for World /Game/ThroneRoom.ThroneRoom
+[2018.11.08-19.23.58:968][628]LogSlate: Window 'Save Content' being destroyed
+[2018.11.08-19.23.59:159][628]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMasterFCBCDE1E4A06CDEF1C55DEA4C109A91A.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Content/Cinematics/Sequences/MovieReel/MovieReelMaster.uasset'
+[2018.11.08-19.23.59:342][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.08-19.24.00:576][628]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPBB06D2B5B455871437F3C789DB814C3F0.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap'
+[2018.11.08-19.24.00:627][628]LogFileHelpers: Saving map 'WorldBuildingMPB' took 1.440
+[2018.11.08-19.24.00:627][628]Cmd: MAP LOAD FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/ThroneRoom.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.08-19.24.00:627][628]LightingResults: New page: Lighting Build
+[2018.11.08-19.24.00:629][628]LoadErrors: New page: Loading map: ThroneRoom.umap
+[2018.11.08-19.24.00:640][628]MapCheck: New page: Map Check
+[2018.11.08-19.24.00:640][628]LightingResults: New page: Lighting Build
+[2018.11.08-19.24.00:686][628]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.08-19.24.00:743][628]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.08-19.24.00:890][628]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 145.924ms to complete.
+[2018.11.08-19.24.00:892][628]LogFileHelpers: Loading map 'ThroneRoom' took 0.264
+[2018.11.08-19.24.20:085][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.24.31:190][427]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.11.08-19.24.38:761][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.24.39:262][885]LogAIModule: Creating AISystem for world WorldBuildingMPB
+[2018.11.08-19.24.39:293][885]LogAssetEditorManager: Opening Asset editor for World /Game/WorldBuildingMPB.WorldBuildingMPB
+[2018.11.08-19.24.39:323][885]Cmd: MAP LOAD FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.11.08-19.24.39:323][885]LightingResults: New page: Lighting Build
+[2018.11.08-19.24.39:325][885]LoadErrors: New page: Loading map: WorldBuildingMPB.umap
+[2018.11.08-19.24.39:327][885]MapCheck: New page: Map Check
+[2018.11.08-19.24.39:327][885]LightingResults: New page: Lighting Build
+[2018.11.08-19.24.39:420][885]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.11.08-19.24.39:485][885]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.11.08-19.24.39:639][885]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 153.785ms to complete.
+[2018.11.08-19.24.39:641][885]LogFileHelpers: Loading map 'WorldBuildingMPB' took 0.318
+[2018.11.08-19.25.26:116][653]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_GroundMound_3)
+[2018.11.08-19.25.28:249][777]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Flower_10)
+[2018.11.08-19.25.29:796][866]Cmd: EDIT COPY
+[2018.11.08-19.25.35:704][217]Cmd: EDIT PASTE
+[2018.11.08-19.25.54:131][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.26.00:309][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.08-19.26.04:231][893]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat4)
+[2018.11.08-19.26.05:121][943]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tile_Dirt_2)
+[2018.11.08-19.34.39:081][764]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.08-19.34.39:126][764]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.08-19.34.40:297][764]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB_Auto1A3004B90411490AEAEDC46ABABC19267.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto1.umap'
+[2018.11.08-19.34.40:321][764]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 1.223
+[2018.11.08-19.34.40:322][764]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.223
+[2018.11.09-00.12.17:720][ 24]LogRenderer: Reallocating scene render targets to support 1144x580 Format 10 NumSamples 1 (Frame:67769).
+[2018.11.09-00.12.17:913][ 24]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x215f0a9bfa0 [can pipeline])
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 1 (Re-using existing connection! (#91) with host datarouter.ol.epicgames.com)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.85.246.88) port 443 (#91))
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 3 (OpenSSL SSL_read: SSL_ERROR_SYSCALL, errno 10054)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 4 (Connection died, retrying a fresh connect)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 5 (Closing connection 91)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 6 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB4706F15-49D7-6ADB-716D-8C891CF58A1C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=e62435ed49cc52c31b37498c57314040%7C6c94f4a893b043beaa454949bfc4203a%7Cf39a362b-f1ba-4827-8dc6-b1b81900dceb&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 7 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.12.37:406][ 83]LogHttp: Warning: 00000215A7963B00: libcurl info message cache 8 (Closing connection 92)
+[2018.11.09-00.14.35:713][668]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.14.37:472][757]LogHttp: Warning: 00000215A7961A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.14.37:472][757]LogHttp: Warning: 00000215A7961A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.14.37:472][757]LogHttp: Warning: 00000215A7961A80: libcurl info message cache 1 (Closing connection 93)
+[2018.11.09-00.16.37:504][904]LogHttp: Warning: 00000215EC811300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.16.37:504][904]LogHttp: Warning: 00000215EC811300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.16.37:504][904]LogHttp: Warning: 00000215EC811300: libcurl info message cache 1 (Closing connection 94)
+[2018.11.09-00.17.33:187][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.17.52:285][181]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.18.20:161][815]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-00.18.24:333][ 51]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.18.37:544][823]LogHttp: Warning: 00000215C440F600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.18.37:544][823]LogHttp: Warning: 00000215C440F600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.18.37:544][823]LogHttp: Warning: 00000215C440F600: libcurl info message cache 1 (Closing connection 95)
+[2018.11.09-00.19.33:333][134]Cmd: EDIT PASTE
+[2018.11.09-00.19.35:085][232]Cmd: EDIT PASTE
+[2018.11.09-00.19.36:867][334]Cmd: TRANSACTION UNDO
+[2018.11.09-00.19.36:867][334]LogEditorTransaction: Undo Paste
+[2018.11.09-00.19.37:372][337]Cmd: TRANSACTION UNDO
+[2018.11.09-00.19.37:372][337]LogEditorTransaction: Undo Paste
+[2018.11.09-00.20.37:566][634]LogHttp: Warning: 00000215EC489300: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.20.37:566][634]LogHttp: Warning: 00000215EC489300: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.20.37:566][634]LogHttp: Warning: 00000215EC489300: libcurl info message cache 1 (Closing connection 96)
+[2018.11.09-00.22.37:617][595]LogHttp: Warning: 00000215EC813600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.22.37:617][595]LogHttp: Warning: 00000215EC813600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.22.37:617][595]LogHttp: Warning: 00000215EC813600: libcurl info message cache 1 (Closing connection 97)
+[2018.11.09-00.22.40:772][783]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BS_BFLY_Anim)
+[2018.11.09-00.22.43:020][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.23.13:978][722]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-00.23.16:193][722]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB_Auto2F550F28A449E666CE85DCD8E4BE699C2.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto2.umap'
+[2018.11.09-00.23.16:213][722]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 2.292
+[2018.11.09-00.23.16:213][722]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.292
+[2018.11.09-00.23.16:220][722]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-00.23.16:220][722]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-00.23.16:457][722]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto22D0BAC7243457D21961CD3B50095796D.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto2.uasset'
+[2018.11.09-00.23.16:475][722]LogFileHelpers: Auto-saving content packages took 0.258
+[2018.11.09-00.23.26:054][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.24.04:550][ 96]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.24.27:484][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.24.37:669][ 57]LogHttp: Warning: 000002160409B600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.24.37:669][ 57]LogHttp: Warning: 000002160409B600: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.24.37:669][ 57]LogHttp: Warning: 000002160409B600: libcurl info message cache 1 (Closing connection 98)
+[2018.11.09-00.24.50:076][799]LogEditorViewport: Clicking on Actor (LMB): SkeletalMeshActor (BS_BFLY_Anim)
+[2018.11.09-00.25.04:114][622]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.25.09:455][936]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.25.14:444][219]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.26.37:721][ 98]LogHttp: Warning: 0000021604A4EFC0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.26.37:722][ 98]LogHttp: Warning: 0000021604A4EFC0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.26.37:722][ 98]LogHttp: Warning: 0000021604A4EFC0: libcurl info message cache 1 (Closing connection 99)
+[2018.11.09-00.26.55:407][156]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (SM_Env_Tree_21)
+[2018.11.09-00.26.55:495][156]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-00.28.01:483][103]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.28.02:118][106]LogSlate: Took 0.030795 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.11.09-00.28.37:762][207]LogHttp: Warning: 00000215EC813740: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.28.37:762][207]LogHttp: Warning: 00000215EC813740: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.28.37:762][207]LogHttp: Warning: 00000215EC813740: libcurl info message cache 1 (Closing connection 100)
+[2018.11.09-00.29.05:213][671]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.30.03:380][835]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.11.09-00.30.05:449][942]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.30.17:547][590]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.30.37:801][613]LogHttp: Warning: 00000215EC811A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.30.37:801][613]LogHttp: Warning: 00000215EC811A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.30.37:801][613]LogHttp: Warning: 00000215EC811A80: libcurl info message cache 1 (Closing connection 101)
+[2018.11.09-00.32.37:838][458]LogHttp: Warning: 00000215A7961080: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.32.37:838][458]LogHttp: Warning: 00000215A7961080: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.32.37:838][458]LogHttp: Warning: 00000215A7961080: libcurl info message cache 1 (Closing connection 102)
+[2018.11.09-00.33.16:762][786]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-00.33.18:950][786]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB_Auto3EF1508E44C2799428FDAE7BAA18C304A.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto3.umap'
+[2018.11.09-00.33.18:977][786]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 2.271
+[2018.11.09-00.33.18:977][786]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.271
+[2018.11.09-00.33.18:983][786]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-00.33.18:983][786]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-00.33.19:242][786]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto3D151582D40DAE97282CE228725B1459C.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto3.uasset'
+[2018.11.09-00.33.19:245][786]LogFileHelpers: Auto-saving content packages took 0.265
+[2018.11.09-00.34.13:818][670]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.11.09-00.34.20:968][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.34.29:079][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.34.37:908][875]LogHttp: Warning: 0000021604A4C2C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.34.37:908][875]LogHttp: Warning: 0000021604A4C2C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.34.37:909][875]LogHttp: Warning: 0000021604A4C2C0: libcurl info message cache 1 (Closing connection 103)
+[2018.11.09-00.34.54:220][552]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.36.37:973][964]LogHttp: Warning: 0000021604A4CE00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.36.37:973][964]LogHttp: Warning: 0000021604A4CE00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.36.37:973][964]LogHttp: Warning: 0000021604A4CE00: libcurl info message cache 1 (Closing connection 104)
+[2018.11.09-00.38.16:435][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.38.38:018][408]LogHttp: Warning: 00000215EAA54900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.38.38:018][408]LogHttp: Warning: 00000215EAA54900: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.38.38:018][408]LogHttp: Warning: 00000215EAA54900: libcurl info message cache 1 (Closing connection 105)
+[2018.11.09-00.40.02:268][721]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.03:734][823]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.04:350][864]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.04:805][895]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.05:469][941]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.06:246][995]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.12:378][406]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.13:904][512]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.14:552][557]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.15:182][602]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.15:428][619]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.15:595][630]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.15:744][640]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.15:888][650]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.30:673][637]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.40.38:063][127]LogHttp: Warning: 00000215ED1EBD80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-00.40.38:063][127]LogHttp: Warning: 00000215ED1EBD80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-00.40.38:063][127]LogHttp: Warning: 00000215ED1EBD80: libcurl info message cache 1 (Closing connection 106)
+[2018.11.09-00.40.44:854][584]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat6)
+[2018.11.09-00.40.46:705][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.41.09:008][367]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-00.41.12:614][630]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tile_Dirt_2)
+[2018.11.09-00.41.15:065][799]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.41.40:021][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_Tree_Twisted_01)
+[2018.11.09-00.41.42:127][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.41.48:763][199]LogEditorViewport: Clicking on Actor (LMB): LevelSequenceActor (MovieReelMaster)
+[2018.11.09-00.41.53:303][518]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-00.42.07:705][616]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-00.42.09:930][616]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB618AFB024E6252C6ADCA6BABB9B250CD.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap'
+[2018.11.09-03.19.38:028][983]LogHttp: Warning: 00000215E7853880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-03.19.38:028][983]LogHttp: Warning: 00000215E7853880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-03.19.38:028][983]LogHttp: Warning: 00000215E7853880: libcurl info message cache 1 (Closing connection 107)
+[2018.11.09-03.19.46:717][  3]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 0.025
+[2018.11.09-03.19.46:720][  3]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-03.19.46:720][  3]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-03.19.46:882][  3]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto4DAD2E3A64F3DEB0994C1DE9A10D6A3F6.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto4.uasset'
+[2018.11.09-03.19.46:884][  3]LogFileHelpers: Auto-saving content packages took 0.166
+[2018.11.09-03.20.42:164][172]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.20.42:935][251]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-03.21.07:682][  5]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-03.21.50:383][864]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.21.52:626][ 82]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor48)
+[2018.11.09-03.22.01:261][ 12]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor48)
+[2018.11.09-03.22.04:501][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.22.15:464][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.22.20:808][609]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.22.29:331][117]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.22.38:201][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.05:182][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.17:654][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.20:313][759]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.29:248][291]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.43:880][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.24.57:852][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.25.26:166][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.25.29:268][860]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.25.32:685][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.25.37:446][345]Cmd: TRANSACTION UNDO
+[2018.11.09-03.25.37:446][345]LogEditorTransaction: Undo Move Actors
+[2018.11.09-03.25.43:978][728]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.11.09-03.25.46:907][897]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.25.50:740][125]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.26.05:665][  1]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.26.19:371][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.26.21:638][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.30.00:539][427]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.30.36:131][512]LogEditorViewport: Clicking on Actor (LMB): CineCameraActor (CineCameraActor426)
+[2018.11.09-03.30.38:615][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-03.30.43:741][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.30.47:441][151]Cmd: TRANSACTION UNDO
+[2018.11.09-03.30.47:441][151]LogEditorTransaction: Undo Move Keys or Sections
+[2018.11.09-03.31.41:763][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-03.31.42:921][374]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB_Auto59D6916304D04F23CDCBBAF851C64E378.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto5.umap'
+[2018.11.09-03.31.42:940][374]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 1.211
+[2018.11.09-03.31.42:940][374]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.211
+[2018.11.09-03.31.42:946][374]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-03.31.42:946][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-03.31.43:101][374]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto577020FE949F8032AB98C378404B1D325.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto5.uasset'
+[2018.11.09-03.31.43:103][374]LogFileHelpers: Auto-saving content packages took 0.158
+[2018.11.09-03.31.50:123][794]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-03.34.50:929][614]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.50:929][614]LogEditorTransaction: Undo Move Keys or Sections
+[2018.11.09-03.34.51:839][649]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.51:839][649]LogEditorTransaction: Undo Select Actors/Components
+[2018.11.09-03.34.52:853][708]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.52:854][708]LogEditorTransaction: Undo Select Actors/Components
+[2018.11.09-03.34.53:531][747]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.53:531][747]LogEditorTransaction: Undo Select None
+[2018.11.09-03.34.55:424][851]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.55:424][851]LogEditorTransaction: Undo Move Keys or Sections
+[2018.11.09-03.34.55:910][879]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.55:910][879]LogEditorTransaction: Undo Select Actors/Components
+[2018.11.09-03.34.56:323][903]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.56:323][903]LogEditorTransaction: Undo Select Actors/Components
+[2018.11.09-03.34.56:824][931]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.56:824][931]LogEditorTransaction: Undo Select None
+[2018.11.09-03.34.57:573][969]Cmd: TRANSACTION UNDO
+[2018.11.09-03.34.57:573][969]LogEditorTransaction: Undo Move Keys or Sections
+[2018.11.09-05.15.44:792][ 28]LogHttp: Warning: 00000216254DF880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.15.44:792][ 28]LogHttp: Warning: 00000216254DF880: libcurl info message cache 0 (Connection 114 seems to be dead!)
+[2018.11.09-05.15.44:793][ 28]LogHttp: Warning: 00000216254DF880: libcurl info message cache 1 (Closing connection 114)
+[2018.11.09-05.15.44:793][ 28]LogHttp: Warning: 00000216254DF880: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.15.44:793][ 28]LogHttp: Warning: 00000216254DF880: libcurl info message cache 3 (Closing connection 115)
+[2018.11.09-05.15.53:863][ 54]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 0.049
+[2018.11.09-05.15.53:867][ 54]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-05.15.53:867][ 54]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-05.15.54:150][ 54]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto6A83E0F2043E419A087A4BEAC287DC58E.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto6.uasset'
+[2018.11.09-05.15.54:153][ 54]LogFileHelpers: Auto-saving content packages took 0.288
+[2018.11.09-05.17.45:344][386]LogHttp: Warning: 00000216254DF880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.17.45:344][386]LogHttp: Warning: 00000216254DF880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.17.45:344][386]LogHttp: Warning: 00000216254DF880: libcurl info message cache 1 (Closing connection 116)
+[2018.11.09-05.19.45:387][396]LogHttp: Warning: 00000216254DE5C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.19.45:387][396]LogHttp: Warning: 00000216254DE5C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.19.45:387][396]LogHttp: Warning: 00000216254DE5C0: libcurl info message cache 1 (Closing connection 117)
+[2018.11.09-05.20.12:746][530]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Env_GroundMound_29)
+[2018.11.09-05.20.13:369][593]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat6)
+[2018.11.09-05.20.19:111][251]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.20.23:156][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.21.45:426][396]LogHttp: Warning: 00000216254DF9C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.21.45:426][396]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.21.45:426][396]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 1 (Closing connection 118)
+[2018.11.09-05.23.45:467][791]LogHttp: Warning: 00000216254DF100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.23.45:467][791]LogHttp: Warning: 00000216254DF100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.23.45:467][791]LogHttp: Warning: 00000216254DF100: libcurl info message cache 1 (Closing connection 119)
+[2018.11.09-05.25.45:509][175]LogHttp: Warning: 00000216254DF9C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.25.45:509][175]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.25.45:510][175]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 1 (Closing connection 120)
+[2018.11.09-05.25.54:056][192]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 0.025
+[2018.11.09-05.25.54:058][192]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-05.25.54:058][192]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-05.25.54:207][192]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto7196C3DAE4942BD150933C093E6685ABE.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto7.uasset'
+[2018.11.09-05.25.54:209][192]LogFileHelpers: Auto-saving content packages took 0.152
+[2018.11.09-05.27.45:545][532]LogHttp: Warning: 00000216254DF9C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.27.45:545][532]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.27.45:545][532]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 1 (Closing connection 121)
+[2018.11.09-05.29.45:552][921]LogHttp: Warning: 00000216254DF9C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.29.45:552][921]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.29.45:552][921]LogHttp: Warning: 00000216254DF9C0: libcurl info message cache 1 (Closing connection 122)
+[2018.11.09-05.30.12:380][135]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.31.45:563][309]LogHttp: Warning: 00000216254DE0C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.31.45:563][309]LogHttp: Warning: 00000216254DE0C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.31.45:563][309]LogHttp: Warning: 00000216254DE0C0: libcurl info message cache 1 (Closing connection 123)
+[2018.11.09-05.32.27:948][381]Cmd: TRANSACTION UNDO
+[2018.11.09-05.32.27:948][381]LogEditorTransaction: Undo Move Keys or Sections
+[2018.11.09-05.32.43:176][119]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Dust_groundCoat6)
+[2018.11.09-05.32.46:228][459]LogEditorViewport: Clicking on Actor (LMB): ThirdPersonCharacter_C (ThirdPersonCharacter)
+[2018.11.09-05.32.47:866][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.32.56:328][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.33.01:916][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.33.07:550][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.33.12:002][732]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.33.18:848][241]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.33.45:585][606]LogHttp: Warning: 000002160409BB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.33.45:585][606]LogHttp: Warning: 000002160409BB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.33.45:585][606]LogHttp: Warning: 000002160409BB00: libcurl info message cache 1 (Closing connection 124)
+[2018.11.09-05.34.56:978][824]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-05.35.45:599][624]LogHttp: Warning: 000002160409B740: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.35.45:599][624]LogHttp: Warning: 000002160409B740: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.35.45:599][624]LogHttp: Warning: 000002160409B740: libcurl info message cache 1 (Closing connection 125)
+[2018.11.09-05.35.54:087][640]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.11.09-05.35.54:131][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto8.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.11.09-05.35.55:339][640]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB_Auto8E2734D254DE8C709EA0525ADA16CC065.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/WorldBuildingMPB_Auto8.umap'
+[2018.11.09-05.35.55:364][640]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/WorldBuildingMPB' took 1.262
+[2018.11.09-05.35.55:364][640]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.262
+[2018.11.09-05.35.55:372][640]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster] ([1] browsable assets)...
+[2018.11.09-05.35.55:372][640]OBJ SavePackage: Finished generating thumbnails for package [/Game/Cinematics/Sequences/MovieReel/MovieReelMaster]
+[2018.11.09-05.35.55:537][640]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/MovieReelMaster_Auto806D3D7EA4D87A48B8F21069C75C43FB5.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/Autosaves/Game/Cinematics/Sequences/MovieReel/MovieReelMaster_Auto8.uasset'
+[2018.11.09-05.35.55:539][640]LogFileHelpers: Auto-saving content packages took 0.169
+[2018.11.09-05.37.45:630][840]LogHttp: Warning: 00000216264F56C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.37.45:630][840]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.37.45:630][840]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 1 (Closing connection 126)
+[2018.11.09-05.39.45:643][235]LogHttp: Warning: 00000216264F56C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.39.45:643][235]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.39.45:643][235]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 1 (Closing connection 127)
+[2018.11.09-05.41.45:665][629]LogHttp: Warning: 00000216264F56C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.41.45:665][629]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.41.45:665][629]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 1 (Closing connection 128)
+[2018.11.09-05.43.45:713][ 24]LogHttp: Warning: 00000216264F56C0: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.43.45:713][ 24]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.43.45:713][ 24]LogHttp: Warning: 00000216264F56C0: libcurl info message cache 1 (Closing connection 129)
+[2018.11.09-05.45.45:771][263]LogHttp: Warning: 00000216264F5A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.11.09-05.45.45:771][263]LogHttp: Warning: 00000216264F5A80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.11.09-05.45.45:771][263]LogHttp: Warning: 00000216264F5A80: libcurl info message cache 1 (Closing connection 130)
+[2018.11.09-20.05.32:362][191]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.11.09-20.06.13:375][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-20.06.13:637][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WorldBuildingMPB" FILE="../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.11.09-20.06.15:386][817]LogSavePackage: Moving '../../../../../PaintBrushMachiname/MagicPaintbrush/Saved/WorldBuildingMPB52FE8B054EFEA7F8CAFFFA8A94E2161F.tmp' to '../../../../../PaintBrushMachiname/MagicPaintbrush/Content/WorldBuildingMPB.umap'
+[2018.11.09-20.06.17:521][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.11.09-20.06.18:813][ 35]LogSlate: Window 'Save Content' being destroyed
+[2018.11.09-20.06.19:138][ 35]LogSlate: Window 'WhiteBoxForest - Unreal Editor' being destroyed
+[2018.11.09-20.06.19:353][ 36]Cmd: QUIT_EDITOR
+[2018.11.09-20.06.19:387][ 36]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.11.09-20.06.19:407][ 36]LogExit: Preparing to exit.

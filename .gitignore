@@ -63,4 +63,14 @@ DerivedDataCache/*
 # Config folder
 Config/*
 
+# 3D files
+*.fbx
+*.obj
+*.3ds
+
+# Miscellanous
+*.zip
+*.rar
+*.dxf
+
 # End of https://www.gitignore.io/api/unrealengine
